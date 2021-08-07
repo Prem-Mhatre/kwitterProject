@@ -1,0 +1,47 @@
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.logo
+{
+	width:150px;margin-top: 30px;border-radius: 400px;
+	box-shadow: -5px 10px 50px rgb(53, 51, 51);
+}
+
+#login_button
+{
+	width: 30%;
+	font-size: 20px;
+	float: right;
+	border: none;
+	background: linear-gradient(to right top, rgb(51, 160, 241), rgb(37, 145, 217), rgb(24, 130, 193), rgb(10, 115, 170), rgb(0, 100, 148));
+}
+#login_button:hover{
+	background: linear-gradient(to right top, rgb(0, 100, 148), rgb(10, 115, 170), rgb(24, 130, 193), rgb(37, 145, 217), rgb(51, 160, 241))
+}
+.brand{
+	width: 50%;
+	background: linear-gradient(to right top, rgb(51, 160, 241), rgb(37, 145, 217), rgb(24, 130, 193), rgb(10, 115, 170), rgb(0, 100, 148));
+	position: fixed;
+	top: 0px;
+	height: 100%;
+}
+.brand h3{
+	font-weight: bold;
+}
+.login{
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding: 10px;
+	padding-top: 10%;
+}
+.login_header{
+	float: left;
+}
