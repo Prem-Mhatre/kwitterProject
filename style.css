@@ -41,7 +41,14 @@
 	float: right;
 	padding: 10px;
 	padding-top: 10%;
+	background: white;
 }
 .login_header{
 	float: left;
+}
+.container{
+	text-align: center;
+}
+.background{
+	background: linear-gradient(90deg, rgb(51, 160, 241), rgb(37, 145, 217), rgb(24, 130, 193), rgb(10, 115, 170), rgb(0, 100, 148));
 }
