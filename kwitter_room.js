@@ -19,6 +19,8 @@ var firebaseConfig = {
           purpose : "adding room"
       });
       localStorage.setItem("room_name", room_name);
+
+      window.location = "kwitter_page.html";
   }
 
   function getData() {firebase.database().ref("/").on('value',
@@ -34,4 +36,11 @@ var firebaseConfig = {
       console.log(name);
       localStorage.setItem("room_name", name);
       window.location = "kwitter_page.html";
+  }
+
+  function logout(){
+      localStorage.removeItem("user_name_project");
+      localStorage.removeItem("room_name");
+
+      window.location = "index.html";
   }
